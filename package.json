@@ -1,0 +1,1 @@
+{"description":"Reverse proxy for the Zhongzhou forum Supabase backend (China-accessible relay)","engines":{"node":">=18"},"license":"MIT","main":"server.js","name":"zhongzhou-forum-proxy","scripts":{"start":"node server.js"},"version":"1.0.0"}
