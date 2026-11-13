@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# 把所有请求原样转发到论坛的 Supabase 后端（中转代理）
+[[redirects]]
+  from = "/*"
+  to = "https://nfdnprdxzviyiyvuzyyu.supabase.co/:splat"
+  status = 200
